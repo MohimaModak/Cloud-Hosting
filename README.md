@@ -60,7 +60,7 @@ Ensure you have the following installed:
 ### Steps
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-repository/cloud-hosting-website.git
+   git clone https://github.com/your-repository/cloud-hosting-website.git](https://github.com/MohimaModak/Cloud-Hosting.git
    ```
 2. **Navigate to the project directory:**
    ```sh
@@ -111,6 +111,8 @@ You can deploy the site using:
 ## Credits
 - **Icons:** [FlatIcon](https://www.flaticon.com/)
 - **Illustrations:** [Storyset](https://storyset.com/)
+
+### Live link: https://cloud-hosting-dusky.vercel.app/
 
 ## Support
 If you encounter any issues, feel free to contact us via **ThemeForest support page**. Thank you for using our template!
