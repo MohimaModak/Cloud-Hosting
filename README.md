@@ -1,10 +1,10 @@
 # Cloud Hosting Website - Documentation
 
 ## Introduction
-Thank you for purchasing our **Cloud Hosting Website Template**. This template is built using **React.js** and **Tailwind CSS**, ensuring high performance, responsiveness, and modern design. This documentation will guide you through the setup, customization, and deployment process.
+Thank you for purchasing our **Cloud Hosting Website Template**. This template is built using **React.js**, **Vite**, and **Tailwind CSS**, ensuring high performance, responsiveness, and modern design. This documentation will guide you through the setup, customization, and deployment process.
 
 ## Features
-- Built with **React.js** and **Tailwind CSS**
+- Built with **React.js**, **Vite**, and **Tailwind CSS**
 - Fully responsive design
 - SEO optimized
 - High performance and fast loading speed
@@ -15,16 +15,28 @@ Thank you for purchasing our **Cloud Hosting Website Template**. This template i
 ## Folder Structure
 ```
 cloud-hosting-website/
-│── public/                  # Static assets
-│── src/                     # Main source code
-│   │── components/          # Reusable React components
-│   │── pages/               # Page components
-│   │── assets/              # Icons and images
-│   │── App.js               # Main App component
-│   │── index.js             # Entry point
-│── tailwind.config.js       # Tailwind CSS configuration
-│── package.json             # Project dependencies
-│── README.md                # Basic project details
+│── node_modules/             # Project dependencies
+│── public/                   # Static assets
+│── src/                      # Main source code
+│   │── assets/               # Icons and images
+│   │   │── Component/        # Component assets
+│   │   │── Gallery/          # Gallery assets
+│   │   └── react.svg         # React logo
+│   │── App.css               # Global styles
+│   │── App.jsx               # Main App component
+│   │── index.css             # Additional styles
+│   │── main.jsx              # Entry point
+│   │── Root.jsx              # Root component
+│── .gitignore                # Git ignore file
+│── eslint.config.js          # ESLint configuration
+│── index.html                # Main HTML file
+│── package-lock.json         # Dependency lock file
+│── package.json              # Project dependencies
+│── postcss.config.js         # PostCSS configuration
+│── README.md                 # Basic project details
+│── tailwind.config.js        # Tailwind CSS configuration
+│── vite.config.js            # Vite configuration
+│── yarn.lock                 # Yarn lock file
 ```
 
 ## Sections Overview
@@ -48,7 +60,7 @@ Ensure you have the following installed:
 ### Steps
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/MohimaModak/Cloud-Hosting.git
+   git clone https://github.com/your-repository/cloud-hosting-website.git
    ```
 2. **Navigate to the project directory:**
    ```sh
@@ -64,11 +76,11 @@ Ensure you have the following installed:
    ```
 4. **Run the development server:**
    ```sh
-   npm start  
+   npm run dev  
    ```
    or
    ```sh
-   yarn start
+   yarn dev
    ```
 
 ## Customization
@@ -87,11 +99,19 @@ Run the following command to generate an optimized build:
 ```sh
 npm run build
 ```
-This will create a `build/` folder containing production-ready files.
+This will create a `dist/` folder containing production-ready files.
 
+### Hosting Options
+You can deploy the site using:
+- **Vercel** (Recommended)
+- **Netlify**
+- **GitHub Pages**
+- **Custom Hosting Providers**
 
 ## Credits
 - **Icons:** [FlatIcon](https://www.flaticon.com/)
-- **Images:** [Storyset](https://storyset.com/)
+- **Illustrations:** [Storyset](https://storyset.com/)
 
+## Support
+If you encounter any issues, feel free to contact us via **ThemeForest support page**. Thank you for using our template!
 
