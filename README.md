@@ -108,9 +108,11 @@ You can deploy the site using:
 - **GitHub Pages**
 - **Custom Hosting Providers**
 
-## Credits
+## Credits and Attributions
 - **Icons:** [FlatIcon](https://www.flaticon.com/)
-- **Illustrations:** [Storyset](https://storyset.com/)
+- **Images:** [Storyset](https://storyset.com/)
+
+## Live Demo: https://cloud-hosting-dusky.vercel.app/
 
 ## Support
 If you encounter any issues, feel free to contact us via **ThemeForest support page**. Thank you for using our template!
