@@ -108,7 +108,7 @@ You can deploy the site using:
 - **GitHub Pages**
 - **Custom Hosting Providers**
 
-## Credits
+## Credits And Attribution
 - **Icons:** [FlatIcon](https://www.flaticon.com/)
 - **Illustrations:** [Storyset](https://storyset.com/)
 
