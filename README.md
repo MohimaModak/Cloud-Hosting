@@ -60,7 +60,7 @@ Ensure you have the following installed:
 ### Steps
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-repository/cloud-hosting-website.git](https://github.com/MohimaModak/Cloud-Hosting.git
+   https://github.com/MohimaModak/Cloud-Hosting.git
    ```
 2. **Navigate to the project directory:**
    ```sh
