@@ -62,7 +62,6 @@ Ensure you have the following installed:
    ```sh
    https://github.com/MohimaModak/Cloud-Hosting.git
    ```
-   
    ```
 2. **Navigate to the project directory:**
    ```sh
