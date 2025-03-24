@@ -60,7 +60,11 @@ Ensure you have the following installed:
 ### Steps
 1. **Clone the repository:**
    ```sh
+<<<<<<< HEAD
   
+=======
+   https://github.com/MohimaModak/Cloud-Hosting.git
+>>>>>>> aa6d0bce7249834a0c1a4e0116e3f806be9b8ba0
    ```
 2. **Navigate to the project directory:**
    ```sh
@@ -108,11 +112,17 @@ You can deploy the site using:
 - **GitHub Pages**
 - **Custom Hosting Providers**
 
+<<<<<<< HEAD
 ## Credits and Attributions
+=======
+## Credits And Attribution
+>>>>>>> aa6d0bce7249834a0c1a4e0116e3f806be9b8ba0
 - **Icons:** [FlatIcon](https://www.flaticon.com/)
 - **Images:** [Storyset](https://storyset.com/)
 
 ## Live Demo : https://cloud-hosting-dusky.vercel.app/
+
+### Live link: https://cloud-hosting-dusky.vercel.app/
 
 ## Support
 If you encounter any issues, feel free to contact us via **ThemeForest support page**. Thank you for using our template!

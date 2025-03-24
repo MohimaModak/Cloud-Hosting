@@ -67,7 +67,7 @@ export default function Footer() {
         {/* Footer Bottom */}
         <div className="mt-12 text-center text-sm text-gray-500">
           <hr className="border-gray-700 mb-4" />
-          &copy; {new Date().getFullYear()} YourBrand. All rights reserved.
+          &copy; {new Date().getFullYear()} Our Brand. All rights reserved.
         </div>
       </div>
     </footer>
