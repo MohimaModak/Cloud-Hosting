@@ -19,12 +19,12 @@ export default function Choose() {
     return (
         <div>
             <div className="text-center text-slate-100 bg py-24 px-10">
-            <div data-aos="zoom-out">
+            <div data-aos="fade-up">
                 <h2 className="text-3xl lg:text-4xl font-bold">Create beautiful art with <span className='text-teal-300'>Artificial Intelligence</span> </h2>
                 <p className="mt-4 text-lg lg:text-xl my-10">Discover the best AI-powered tools to enhance your creative ideas.</p>
                 <div className="flex justify-center">
-                    <input type="text" placeholder="Find your dream domain ..." className="p-3.5 lg:w-96 rounded-l-full text-blue-950" />
-                    <button className="bg-teal-300 text-blue-950 font-bold px-6 rounded-r-full">Generate</button>
+                    <input type="text" placeholder="Find your dream domain ..." className="p-3.5 w-48 lg:w-96 rounded-l-full text-blue-950" />
+                    <button className="bg-teal-300 text-blue-950 font-bold px-3 lg:px-6 rounded-r-full">Generate</button>
                 </div>
                 <div className='flex justify-center items-center mt-10'>
                     <div className='lg:flex justify-center items-center gap-10'>

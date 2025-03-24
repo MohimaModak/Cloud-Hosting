@@ -21,7 +21,7 @@ export default function Security() {
 
   return (
     <section id="/security" className="bg text-slate-100 py-24 px-10">
-   <div data-aos="zoom-out">
+   <div data-aos="fade-up">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl lg:text-4xl font-bold mb-6">Your Data, <span className="text-teal-300">Our Priority</span> </h2>
         <p className="text-lg lg:text-xl text-gray-300 mb-10">

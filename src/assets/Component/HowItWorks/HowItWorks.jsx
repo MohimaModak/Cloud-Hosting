@@ -38,7 +38,7 @@ export default function HowItWorks() {
 
   return (
     <section id='/HowItWorks' className="bg-slate-100 py-24 px-10 text-center text-slate-800">
-   <div data-aos="zoom-out">
+   <div data-aos="fade-up">
     <h2 className="text-3xl lg:text-4xl font-bold mb-10">Get Started in 3 Easy Steps</h2>
       <div className="flex justify-center gap-8 flex-wrap">
         {steps.map((step, index) => (

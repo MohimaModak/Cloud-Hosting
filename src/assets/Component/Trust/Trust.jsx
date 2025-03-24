@@ -15,8 +15,8 @@ export default function Trust() {
 }, []);
 
   return (
-    <div data-aos="zoom-out" className='py-24 px-10 text-center bg-gray-100 text-slate-950'>
-    <div data-aos="zoom-out">
+    <div data-aos="fade-up" className='py-24 px-10 text-center bg-gray-100 text-slate-950'>
+    <div data-aos="fade-up">
       <div>
         <h1 className='text-3xl lg:text-4xl font-bold'>Trusted by Over 10,000 Clients Globally</h1>
       </div>

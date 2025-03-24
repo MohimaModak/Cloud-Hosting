@@ -19,7 +19,7 @@ export default function Testimonial() {
 
   return (
     <div id='/Testimonial' className="py-28 bg px-5 text-slate-800 relative">
-     <div data-aos="zoom-out">
+     <div data-aos="fade-up">
       <div className="max-w-4xl mx-auto text-center">
         <p className="text-3xl font-bold text-slate-100">Our <span className='text-teal-300'>Testimonials</span></p>
         <h2 className="mt-4 text-lg lg:text-xl my-10 font-medium text-slate-100">What Our Clients Say</h2>

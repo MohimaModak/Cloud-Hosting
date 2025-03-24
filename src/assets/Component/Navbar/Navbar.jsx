@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import NavbarIcon from "../../../Gallery/NavbarIcon.png"
+import kal from "../../../Gallery/logo.png"
 import { Link } from "react-scroll";
 import "./Navbar.css";
 
@@ -12,16 +12,24 @@ export default function Navbar() {
 
   return (
     <div className="fixed w-full text-white font-medium top-0 z-50 shadow-sm">
-      {/* Mobile Navbar */}
-      <div className="md:hidden sm:block text-sm ml-3" onClick={toggleButton}>
-        <span className="cursor-pointer p-5">
-          <div className="w-8 h-1  bg-teal-500"></div>
-          <div className="w-8 h-1 mt-1.5 bg-teal-500"></div>
-          <div className="w-8 h-1 mt-1.5 bg-teal-500"></div>
-        </span>
+      <div className="flex justify items-center">
+        <div className="md:hidden  sm:block text-sm p-2" onClick={toggleButton}>
+          <div className="cursor-pointer">
+            <div>
+              <div className="w-8 h-1  bg-teal-500"></div>
+              <div className="w-8 h-1 mt-1 bg-teal-500"></div>
+              <div className="w-8 h-1 mt-1 bg-teal-500"></div>
+            </div>
+          </div>
+
+        </div>
       </div>
+
+
       <div className={`mobile-menu ${toggle ? "open" : ""}`}>
         <div className="navbar-links font-bold text-teal-300">
+          <div className="flex items-center justify-center"><img src={kal} className="w-10" />
+          <h1 className="font-bold text-teal-300 text-3xl text-center p-4">Hosting</h1></div>
           <Link to="/" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
             Home
           </Link>
@@ -46,42 +54,14 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* <div className="flex justify-center items-center bg">
-        <div className="hidden md:block w-max py-4">
-          <nav className="navbar flex justify-center items-center">
-            <div className="navbar-links lg:flex justify-center items-center">
-              <img src={NavbarIcon} className="w-20 mr-44" />
-              <Link to="/" smooth={true} duration={1000} className="text-xl mr-5 hover:text-teal-200">
-                Home
-              </Link>
-              <Link to="/HowItWorks" smooth={true} duration={1000} className="text-xl mr-5 hover:text-teal-200">
-                How It Works
-              </Link>
-              <Link to="/Pricing" smooth={true} duration={1000} className="text-xl mr-5 hover:text-teal-200">
-                Pricing
-              </Link>
-              <Link to="/Testimonial" smooth={true} duration={1000} className="text-xl mr-5 hover:text-teal-200">
-                Testimonials
-              </Link>
-              <Link to="/security" smooth={true} duration={1000} className="text-xl mr-5 hover:text-teal-200">
-                Security
-              </Link>
-              <Link to="/Faq" smooth={true} duration={1000} className="text-xl mr-5 hover:text-teal-200">
-                FAQ
-              </Link>
-              <Link to="/Contact" smooth={true} duration={1000} className="text-xl mr-5 hover:text-teal-200">
-                Contact
-              </Link>
-            </div>
-          </nav>
-        </div>
-      </div> */}
-
 
       <div className="flex justify-between items-center bg">
         <div className="hidden md:block w-full ">
           <nav className="navbar flex justify-between items-center">
-            <img src={NavbarIcon} className="w-16" />
+            <div className="flex justify-center items-center gap-4">
+              <img src={kal} className="w-14" />
+              <h1 className="font-bold text-teal-300 text-3xl">Hosting</h1>
+            </div>
             <div className="navbar-links lg:flex justify-center items-center gap-5">
               <Link to="/" smooth={true} duration={1000} className="text-xl hover:text-teal-200 hover:underline">
                 Home

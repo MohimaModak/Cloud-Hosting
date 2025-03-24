@@ -19,7 +19,7 @@ const VPS = () => {
 
   return (
     <div  className="py-24 px-10 text-center bg-gray-100 text-slate-950">
-     <div data-aos="zoom-out">
+     <div data-aos="fade-up">
       <div className="">
         <h1 className='text-3xl lg:text-4xl font-bold'>Managed VPS Hosting Plans</h1>
         <p className="mt-4 text-lg lg:text-xl my-10 font-bold">Take your online presence to the next level with <br /> VPS hosting plans, crafted for faster page load times!</p>

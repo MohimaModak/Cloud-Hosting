@@ -27,7 +27,7 @@ export default function FAQ() {
 
     return (
         <section id='/Faq' className="py-24 px-16 bg faq relative text-slate-100">
-        <div data-aos="zoom-out">
+        <div data-aos="fade-up">
             <div
                 data-aos="fade-up" className="max-w-5xl mx-auto text-center">
                 <h2 className="text-3xl lg:text-4xl font-bold">

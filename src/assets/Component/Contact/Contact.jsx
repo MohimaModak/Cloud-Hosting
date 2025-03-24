@@ -24,7 +24,7 @@ export default function Contact() {
 
   return (
     <div id='/Contact' className="h-full py-24 px-10 bg-slate-100">
-      <div data-aos="zoom-out" className="max-w-7xl mx-auto">
+      <div data-aos="fade-up" className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8">
           <h2 className="text-3xl lg:text-4xl font-bold text-slate-800">

@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className=''>
       <div id='/' className='bg h-full text-slate-100 py-14 px-16 md:pt-24'>
-        <div data-aos="zoom-out"
+        <div data-aos="fade-up"
           className='flex justify-center items-center  '>
           <div className='lg:flex justify-center items-center text-center lg:text-left'>
             <div className='max-w-md:w-2/3'>

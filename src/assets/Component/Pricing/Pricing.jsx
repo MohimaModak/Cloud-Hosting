@@ -19,7 +19,7 @@ const Pricing = () => {
 
   return (
     <section id='/Pricing' className="py-28 bg-slate-100 px-5 text-slate-900">
-      <div data-aos="zoom-out">
+      <div data-aos="fade-up">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl lg:text-4xl font-bold">
             Choose the Perfect Plan for Your Investment Goals
