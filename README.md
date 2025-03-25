@@ -22,7 +22,21 @@ cloud-hosting-website/
 │── public/                   # Static assets
 │── src/                      # Main source code
 │   │── assets/               # Icons and images
-│   │   │── Component/        # Component assets
+│   │   │── Component/ 
+│   │   │   ├── Choose/
+│   │   │   ├── Contact/
+│   │   │   ├── FAQ/
+│   │   │   ├── Footer/
+│   │   │   ├── Home/
+│   │   │   ├── Home/
+│   │   │   ├── HowItWorks/
+│   │   │   ├── Navbar/
+│   │   │   ├── Pricing/
+│   │   │   ├── Security/
+│   │   │   ├── Testimonial/
+│   │   │   ├── Trust/
+│   │   │   ├── VPS/
+       # Component assets
 │   │   │── Gallery/          # Gallery assets
 │   │   └── react.svg         # React logo
 │   │── App.css               # Global styles
@@ -63,12 +77,9 @@ Ensure you have the following installed:
 ### Steps
 1. Clone the repository:
    ```sh
-<<<<<<< Updated upstream
    https://github.com/MohimaModak/Cloud-Hosting.git
    ```
-=======
    git clone https://github.com/MohimaModak/Cloud-Hosting.git
->>>>>>> Stashed changes
    ```
 2. Navigate to the project directory:
    ```sh
@@ -113,16 +124,16 @@ You can deploy the site using:
 - Custom Hosting Providers
 
 ## Credits And Attribution
-<<<<<<< Updated upstream
 - **Icons:** [FlatIcon](https://www.flaticon.com/)
 - **Images:** [Storyset](https://storyset.com/)
 
 ### Live link: https://cloud-hosting-dusky.vercel.app/
-=======
 - **Icons**: [FlatIcon](https://www.flaticon.com/)
 - **Images**: [Storyset](https://storyset.com/)
->>>>>>> Stashed changes
 
 ## Support
+For any inquiries, please reach out to:
+📧 Email: mmodak550@gmail.com
+
 If you encounter any issues, feel free to contact us via the ThemeForest support page. Thank you for using our template!
 
