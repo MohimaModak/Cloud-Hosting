@@ -1,10 +1,13 @@
 # Cloud Hosting Website - Documentation
 
+## Live Link
+🔗 [Cloud Hosting Website](https://cloud-hosting-dusky.vercel.app/)
+
 ## Introduction
-Thank you for purchasing our **Cloud Hosting Website Template**. This template is built using **React.js**, **Vite**, and **Tailwind CSS**, ensuring high performance, responsiveness, and modern design. This documentation will guide you through the setup, customization, and deployment process.
+Thank you for purchasing our Cloud Hosting Website Template. This template is built using React.js, Vite, and Tailwind CSS, ensuring high performance, responsiveness, and modern design. This documentation will guide you through the setup, customization, and deployment process.
 
 ## Features
-- Built with **React.js**, **Vite**, and **Tailwind CSS**
+- Built with React.js, Vite, and Tailwind CSS
 - Fully responsive design
 - SEO optimized
 - High performance and fast loading speed
@@ -40,54 +43,54 @@ cloud-hosting-website/
 ```
 
 ## Sections Overview
-1. **Home** - Hero section with introduction.
-2. **Trust** - Showcases credibility and trusted partners.
-3. **Choose** - Highlights reasons to choose the service.
-4. **VPS** - Details on Virtual Private Servers (VPS).
-5. **Security** - Information about security features.
-6. **Pricing** - Pricing plans for different services.
-7. **Testimonial** - Client feedback and testimonials.
-8. **How It Works** - Step-by-step process explanation.
-9. **FAQ** - Frequently Asked Questions.
-10. **Contact** - Contact form and details.
+- **Home** - Hero section with introduction.
+- **Trust** - Showcases credibility and trusted partners.
+- **Choose** - Highlights reasons to choose the service.
+- **VPS** - Details on Virtual Private Servers (VPS).
+- **Security** - Information about security features.
+- **Pricing** - Pricing plans for different services.
+- **Testimonial** - Client feedback and testimonials.
+- **How It Works** - Step-by-step process explanation.
+- **FAQ** - Frequently Asked Questions.
+- **Contact** - Contact form and details.
 
 ## Installation
 ### Prerequisites
 Ensure you have the following installed:
-- **Node.js** (Latest LTS version)
-- **npm** or **yarn**
+- Node.js (Latest LTS version)
+- npm or yarn
 
 ### Steps
-1. **Clone the repository:**
+1. Clone the repository:
    ```sh
+<<<<<<< Updated upstream
    https://github.com/MohimaModak/Cloud-Hosting.git
    ```
+=======
+   git clone https://github.com/MohimaModak/Cloud-Hosting.git
+>>>>>>> Stashed changes
    ```
-2. **Navigate to the project directory:**
+2. Navigate to the project directory:
    ```sh
    cd cloud-hosting-website
    ```
-3. **Install dependencies:**
+3. Install dependencies:
    ```sh
    npm install  
-   ```
-   or
-   ```sh
+   # or
    yarn install
    ```
-4. **Run the development server:**
+4. Run the development server:
    ```sh
    npm run dev  
-   ```
-   or
-   ```sh
+   # or
    yarn dev
    ```
 
 ## Customization
 ### Editing Content
-- All content is managed within **components** and **pages** inside the `src/` folder.
-- You can replace **images/icons** inside the `assets/` folder.
+- All content is managed within components and pages inside the `src/` folder.
+- You can replace images/icons inside the `assets/` folder.
 - Modify text directly inside the respective components.
 
 ### Changing Colors & Styling
@@ -104,17 +107,22 @@ This will create a `dist/` folder containing production-ready files.
 
 ### Hosting Options
 You can deploy the site using:
-- **Vercel** (Recommended)
-- **Netlify**
-- **GitHub Pages**
-- **Custom Hosting Providers**
+- Vercel (Recommended)
+- Netlify
+- GitHub Pages
+- Custom Hosting Providers
 
 ## Credits And Attribution
+<<<<<<< Updated upstream
 - **Icons:** [FlatIcon](https://www.flaticon.com/)
 - **Images:** [Storyset](https://storyset.com/)
 
 ### Live link: https://cloud-hosting-dusky.vercel.app/
+=======
+- **Icons**: [FlatIcon](https://www.flaticon.com/)
+- **Images**: [Storyset](https://storyset.com/)
+>>>>>>> Stashed changes
 
 ## Support
-If you encounter any issues, feel free to contact us via **ThemeForest support page**. Thank you for using our template!
+If you encounter any issues, feel free to contact us via the ThemeForest support page. Thank you for using our template!
 
