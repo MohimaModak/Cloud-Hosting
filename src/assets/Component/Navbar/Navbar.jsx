@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className={`mobile-menu ${toggle ? "open" : ""}`}>
         <div className="navbar-links font-bold text-teal-300">
           <div className="flex items-center justify-center"><img src={kal} className="w-10" />
-          <h1 className="font-bold text-teal-300 text-3xl text-center p-4">Hosting</h1></div>
+            <h1 className="font-bold text-teal-300 text-3xl text-center p-4">Hosting</h1></div>
           <Link to="/" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
             Home
           </Link>
@@ -51,6 +51,11 @@ export default function Navbar() {
           <Link to="/Contact" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
             Contact
           </Link>
+          <div>
+            <a target='_blank' href="https://github.com/MohimaModak/Cloud-Hosting">
+              <button className='text-xl inline-block text-center'>Github & Doc</button>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -84,6 +89,11 @@ export default function Navbar() {
               <Link to="/Contact" smooth={true} duration={1000} className="text-xl hover:text-teal-200 hover:underline">
                 Contact
               </Link>
+              <div>
+                <a target='_blank' href="https://github.com/MohimaModak/Cloud-Hosting">
+                  <button className='text-xl'>Github & Doc</button>
+                </a>
+              </div>
             </div>
             <div className="flex justify-center items-center">
               <button className="text-lg text-slate-700 font-bold rounded py-2 px-4 bg-teal-300">Buy Now</button>
